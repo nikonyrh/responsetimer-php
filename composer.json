@@ -1,0 +1,21 @@
+{
+    "name": "nikonyrh/responsetimer-php",
+    "description": "A lightweight PHP library to log response times",
+    "keywords": ["elasticsearch", "php", "log"],
+    "type": "library",
+    "license": "Apache 2",
+    "authors": [
+        {
+            "name": "Niko Nyrhilä"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "NikoNyrh\\": "src/NikoNyrh"
+        }
+    },
+    "require": {
+        "php": ">=5.4",
+		"elasticsearch/elasticsearch": "~1.0"
+    }
+}
